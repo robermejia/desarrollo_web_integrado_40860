@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <center> Desarrollo Web Integrado - Sección 40860
 </center>
 ## Docente: Omar Wilton SAAVEDRA SALAZAR
