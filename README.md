@@ -1,5 +1,4 @@
-<center> Desarrollo Web Integrado - Sección 40860
-</center>
+# Desarrollo Web Integrado - Sección 40860
 ## Docente: Omar Wilton SAAVEDRA SALAZAR
 <center>
 <img src="https://i.ibb.co/VjJkQwz/Captura-de-pantalla-2025-01-07-154518.png" style="width: 100% ; aspect-ratio:16/9">
