@@ -13,3 +13,5 @@
 [![YouTube Video](https://img.youtube.com/vi/jBtMzS2Oxm8/1.jpg)](https://www.youtube.com/watch?v=jBtMzS2Oxm8)
 ### S04 - Implementación de API REST. Herramientas de prueba de API REST. Métodos HTTP
 [![YouTube Video](https://img.youtube.com/vi/7hiEOlQnO0U/1.jpg)](https://www.youtube.com/watch?v=7hiEOlQnO0U)
+### S05 - Presentación del primer avance del proyecto final
+[![YouTube Video](https://img.youtube.com/vi/qiKoHusUL6g/1.jpg)](https://www.youtube.com/watch?v=qiKoHusUL6g)
