@@ -19,3 +19,11 @@
 [![YouTube Video](https://img.youtube.com/vi/8k_X4nwB59c/1.jpg)](https://www.youtube.com/watch?v=8k_X4nwB59c)
 ### S07 - JPQL. Transacciones con Spring Boot.
 [![YouTube Video](https://img.youtube.com/vi/lgr_zm0mTa8/1.jpg)](https://www.youtube.com/watch?v=lgr_zm0mTa8)
+### S08 - Seguridad con Spring Security. Configuración de roles y permisos
+[![YouTube Video](https://img.youtube.com/vi/N3UklTyHY9I/1.jpg)](https://www.youtube.com/watch?v=N3UklTyHY9I)
+### S09 - Implementación de autenticación con JWT
+[![YouTube Video](https://img.youtube.com/vi/P4zFKxbK8kc/1.jpg)](https://www.youtube.com/watch?v=P4zFKxbK8kc)
+### S10 - PC2
+[![YouTube Video](https://img.youtube.com/vi/gi3Zj7H7jn4/1.jpg)](https://www.youtube.com/watch?v=gi3Zj7H7jn4)
+### S11 - Fundamentos de Angular. Generación de componentes. estilos con el preprocesador SASS
+[![YouTube Video](https://img.youtube.com/vi/-r9pAa-PqPg/1.jpg)](https://www.youtube.com/watch?v=-r9pAa-PqPg)
