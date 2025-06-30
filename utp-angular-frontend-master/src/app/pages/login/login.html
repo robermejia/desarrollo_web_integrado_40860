@@ -1,0 +1,33 @@
+<div class="flex min-h-full flex-row justify-center px-10 items-center bg-[#475e81]">
+  <div class="bg-[#34445d] px-5 py-10 lg:px-6 h-[600px] shadow-black shadow-2xl">
+    <div _ngcontent-ng-c3952633943="" class="sm:mx-auto sm:w-full sm:max-w-sm">
+      <img _ngcontent-ng-c3952633943="" src="images/logo.jpg" alt="UTP LOGO" class="mx-auto mb-3 !bg-contain">
+    </div>
+    <div [formGroup]="form" class="mt-1 sm:mx-auto sm:w-full sm:max-w-sm">
+
+      <div class="space-y-6 ng-dirty ng-touched ng-valid">
+        <!-- Correo -->
+        <div>
+          <label class="text-white" for="email">Correo</label>
+          <input class="w-full text-xl text-white decoration-0 focus:outline-0 border-white border-b-1" type="email"
+            id="email" formControlName="email">
+        </div>
+        <!-- Contraseña -->
+        <div class="relative">
+          <label class="text-white" for="password">Contraseña</label>
+          <input class="w-full text-xl text-white decoration-0 focus:outline-0 border-white border-b-1"
+            [attr.type]="passwordType" id="password" formControlName="password">
+          <button class="absolute cursor-pointer right-1" (click)="togglePassword()">
+            <mat-icon class="!text-white">{{ passwordType === 'password' ? 'visibility' : 'visibility_off' }}</mat-icon>
+          </button>
+        </div>
+
+        <div class="flex w-full justify-center">
+          <button
+            class="w-[150px] cursor-pointer rounded-md bg-[#ffcf00] px-3 py-1.5 text-sm font-semibold leading-6 text-black shadow-sm hover:bg-[#dfb600] focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-bg-[#7b1623]"
+            [disabled]="form.invalid" (click)="loginClick()">Iniciar sesión</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
