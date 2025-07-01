@@ -1,2 +1,29 @@
-- Verificar si stock se esta usando al momento de hacer una compra.
+Preguntas del docente:
+¿Podrías explicarme un poco el registro del pedido?, cuando el usuario confirma el pedido, 
+entiendo que ustedes ya han seleccionado la interfaz, los productos los pedidos todo, entiendo 
+que confirman el pedido y eso entiendo que el controlador lo recibe y procesa todo el paquete 
+de productos que han selecionado.
+
+¿Guardar pedido qué hace, recibe, la cabecera todo el paquete con pedidos?, entonces en interfaz
+el pedido implica los datos del cliente implica la lista de productos?, entonces puedes abrir la definion 
+de pedido, hay una operación de guardar hay en el @PostMapping en el try catch en la línea 108 
+(PedidoController) guardarPedido tu le pasas el pedido, ¿ese pedido que estructura tiene?
+pedidoData viene arriba en la linea 93 viene en un pedido storePedidoDto en la parte final dice: 
+StorePedidoDto pedidoData. Ingresa a esa clase para ver la definición de (StorePedidoDto.java), veo que tiene una 
+lista de detalles (StorePedidoDetalleDto.java) y ahi te indica tienes una lista de detalles y cada detalle
+tiene un identificador y una cantidad, ubicate en (PedidoController.java) en 108, ingresa a la operación 
+guardarPedido() (PedidoService.java) para ver el detalle de como hace la operación de la operación guardar
+
+Una duda es que hace la operación guardar, que haces en guardar te pregunto ello porque tendria que no solo tendría
+guardar el pedido sino tambien bajar el stock, ahí esta en (PedidoServiceImpl.java) linea 56 "guardarPedido()" 
+que hacen ahi en guardar
+
+Otra cosa que vi en tu base de datos tu tiene el tipo de comprobante en que momento se establece eso en tu table vi 
+tipo comprobante. En la tabla comprobantes esta tipo de comprobantes.
+
+
+NOTA:
+- Usar el tipo o la tabla de comprobante.
+- Registrar consiganar los registros de precios.
+- Corregir el stock descargado.
 - El comprobante debe mostrar monto total a pagar.
