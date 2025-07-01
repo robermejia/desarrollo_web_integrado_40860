@@ -1,0 +1,14 @@
+<div>
+    <h2>Consulta de Personas</h2>
+    <label>Tipo: <input [(ngModel)]="tipo"></label>
+    <label>Número: <input [(ngModel)]="numero"></label>
+    <button (click)="consultarPersona()">Consultar</button>
+
+    <div *ngIf="persona">
+        <p><strong>Tipo:</strong>{{persona.tipoDocumentoIdentidad}}</p>
+        <p><strong>Número:</strong>{{persona.numeroDocumentoIdentidad}}</p>
+        <p><strong>Nombre:</strong>{{persona.apellidosNombresDenominacionRazonSocial}}</p>
+    </div>
+
+    <div *ngIf="error" style="color:red">{{error}}</div>
+</div>
