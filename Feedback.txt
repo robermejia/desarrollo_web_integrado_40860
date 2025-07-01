@@ -26,4 +26,8 @@ NOTA:
 - Usar el tipo o la tabla de comprobante.
 - Registrar consiganar los registros de precios.
 - Corregir el stock descargado.
-- El comprobante debe mostrar monto total a pagar.
+- Mejorar el comprobante debe mostrar monto total a pagar.
+
+FUTURAS MEJORAS:
+- Método de pago por paypal.
+- Compronate descargable en PDF.
