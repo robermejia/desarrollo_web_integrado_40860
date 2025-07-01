@@ -4,26 +4,41 @@
 <img src="https://i.ibb.co/VjJkQwz/Captura-de-pantalla-2025-01-07-154518.png" style="width: 100% ; aspect-ratio:16/9">
 </center>
 
-## Grabaciones
-### S01 - Intro: conceptos básicos, arquitectura y estructura de un proyecto Spring Boot. Configuración
-[![YouTube Video](https://img.youtube.com/vi/Rz4FK_ei-uk/1.jpg)](https://www.youtube.com/watch?v=Rz4FK_ei-uk)
-### S02 - Configuración de endpoints y controladores. Dependency injection
-[![YouTube Video](https://img.youtube.com/vi/-xk9VnOSBuA/1.jpg)](https://www.youtube.com/watch?v=-xk9VnOSBuA)
-### S03 - Test-drive development (TDD). Integración de TDD en Spring
-[![YouTube Video](https://img.youtube.com/vi/jBtMzS2Oxm8/1.jpg)](https://www.youtube.com/watch?v=jBtMzS2Oxm8)
-### S04 - Implementación de API REST. Herramientas de prueba de API REST. Métodos HTTP
-[![YouTube Video](https://img.youtube.com/vi/7hiEOlQnO0U/1.jpg)](https://www.youtube.com/watch?v=7hiEOlQnO0U)
-### S05 - Presentación del primer avance del proyecto final
-[![YouTube Video](https://img.youtube.com/vi/qiKoHusUL6g/1.jpg)](https://www.youtube.com/watch?v=qiKoHusUL6g)
-### S06 - Manejo de Datos en Spring Boot con JPA - Hibernate. Operaciones CRUD
-[![YouTube Video](https://img.youtube.com/vi/8k_X4nwB59c/1.jpg)](https://www.youtube.com/watch?v=8k_X4nwB59c)
-### S07 - JPQL. Transacciones con Spring Boot.
-[![YouTube Video](https://img.youtube.com/vi/lgr_zm0mTa8/1.jpg)](https://www.youtube.com/watch?v=lgr_zm0mTa8)
-### S08 - Seguridad con Spring Security. Configuración de roles y permisos
-[![YouTube Video](https://img.youtube.com/vi/N3UklTyHY9I/1.jpg)](https://www.youtube.com/watch?v=N3UklTyHY9I)
-### S09 - Implementación de autenticación con JWT
-[![YouTube Video](https://img.youtube.com/vi/P4zFKxbK8kc/1.jpg)](https://www.youtube.com/watch?v=P4zFKxbK8kc)
-### S10 - PC2
-[![YouTube Video](https://img.youtube.com/vi/gi3Zj7H7jn4/1.jpg)](https://www.youtube.com/watch?v=gi3Zj7H7jn4)
-### S11 - Fundamentos de Angular. Generación de componentes. estilos con el preprocesador SASS
-[![YouTube Video](https://img.youtube.com/vi/-r9pAa-PqPg/1.jpg)](https://www.youtube.com/watch?v=-r9pAa-PqPg)
+# Sistema de Gestión de Ventas UTP Technology
+
+Este es un proyecto full stack desarrollado con **Spring Boot** en el backend, **Angular 20** en el frontend y **MySQL** como base de datos. El sistema permite gestionar productos, clientes, usuarios, pedidos y comprobantes.
+
+## 📌 Tecnologías utilizadas
+
+- **Frontend:** Angular 20, TypeScript,
+- **Backend:** Spring Boot, Spring Data JPA, Spring Security, JWT
+- **Base de datos:** MySQL
+- **Otros:** REST API, Maven
+
+## 🧩 Estructura de la base de datos
+
+La base de datos `utp_bd` contiene las siguientes tablas:
+
+- `rol`: Roles de usuario (Administrador, Vendedor, Cliente)
+- `usuarios`: Usuarios con clave encriptada
+- `clientes`: Información de clientes vinculados a usuarios
+- `productos`: Lista de productos con imagen, precio y stock
+- `pedidos`: Registra compras realizadas
+- `detalles_pedido`: Detalles de cada producto dentro de un pedido
+- `comprobantes`: Documento generado por cada pedido (boleta/factura)
+
+> El script `ScriptUtpTechnology.sql` crea e inserta datos de prueba automáticamente.
+
+## 🚀 Cómo ejecutar el proyecto
+
+### 1. Base de datos
+
+- Crear una base de datos MySQL ejecutando el script:
+
+```sql
+ScriptUtpTechnology.sql
+
+<center>
+<img src="https://img001.prntscr.com/file/img001/wiUNYs6QSBGwD0eriFXKxg.png" style="width: 100% ; aspect-ratio:16/9">
+</center>
+
