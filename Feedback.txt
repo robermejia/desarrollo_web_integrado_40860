@@ -1,1 +1,7 @@
-- 
+Pregunta del docente:
+¿Cuales serían las operaciones propias de los pédidos?, 
+¿En qué parte del servicio se articula la operación de venta?
+¿Por que hay productos y usuarios, pero no me ve el pedido o 
+del detalle o como se articula ello con una transacción?
+
+NOTA: Complementar esa parte para el siguiente avance.
