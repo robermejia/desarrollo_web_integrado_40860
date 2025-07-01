@@ -35,10 +35,10 @@ La base de datos `utp_bd` contiene las siguientes tablas:
 
 - Crear una base de datos MySQL ejecutando el script:
 
-```sql
-ScriptUtpTechnology.sql
-
 <center>
 <img src="https://img001.prntscr.com/file/img001/wiUNYs6QSBGwD0eriFXKxg.png" style="width: 100% ; aspect-ratio:16/9">
 </center>
+```sql
+ScriptUtpTechnology.sql
+
 
