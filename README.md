@@ -42,3 +42,8 @@ ScriptUtpTechnology.sql
 <center>
 <img src="https://img001.prntscr.com/file/img001/wiUNYs6QSBGwD0eriFXKxg.png" style="width: 100% ; aspect-ratio:16/9">
 </center>
+
+
+### 2. Despliegue
+- http://137.184.30.74:8081/
+- http://137.184.30.74:8080/swagger-ui/index.html
